@@ -1,0 +1,26 @@
+.login .left-side {
+    margin: auto;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .login .left-side {
+        margin: auto;
+        width: 300px;
+    }
+}
+
+.login .right-side img{
+    display: none;
+}
+
+@media (min-width: 768px){
+    .login .right-side img{
+        display: block;
+    }
+}
+
+.login-header button{
+    font-size: 15px;
+    font-weight: bold;
+}

@@ -1,0 +1,163 @@
+.center-content, .card-img, .CardBox , .iconBodyChef {
+    display: flex;
+    justify-content: center;
+}
+.titleLine{
+    width: 40px;
+    height: 4px;
+    background: rgb(218, 58, 74);
+}
+.itemsCenter, .card-img, .CardBox , .iconBodyChef {
+    align-items: center;
+}
+.headingBlack{
+    color: black;
+}
+/*Main-color-Componets-ends*/
+.CardBox {
+    width: 100%;
+    min-height: 270px;
+    flex-direction: column;
+    box-shadow: 1px 1px 5px 1px grey;
+}
+.CardBoxChef{
+    width: 100%;
+    min-height: 307px;
+    box-shadow: 1px 1px 5px 1px #ccc;
+    transition: ease-in-out 0.2s;
+}
+.card-img {
+    height: 220px;
+}
+.card-img-chef{
+    height: 185px;
+    width: 100%;
+}
+.cardImgChef{
+    width: 100%;
+    height: 200px !important;
+}
+.cardImg {
+    width: 90%;
+    height: 190px !important;
+}
+
+.card-content {
+    min-height: 90px;
+    width: 90%;
+    position: relative;
+}
+.card-content-chef{
+    width: 100%;
+}
+.descriptionContent {
+    font-size: 13px;
+    margin-top: -4px;
+    color: black;
+}
+
+.north {
+    font-size: 15px;
+    letter-spacing: 0.9px;
+
+}
+
+.title {
+    color: black;
+}
+
+.imgProfile {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    top: -40%;
+    right: 0;
+}
+
+.icon-card {
+    font-size: 17px !important;
+}
+
+.bnrImg {
+    min-height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://cdn.t.shef.com/unsafe/3000x0/center/middle/https://shef-general.s3.amazonaws.com/uploads/134485d3-9b11-4762-9fae-48e82ba1c8c5_98bd41ab-01d0-433b-8415-4c9419215dab.jpg");
+}
+
+.ChefDishImgBnr {
+    height: 200px !important;
+    width: 100%;
+}
+.ChefDishProfile{
+    width: 145px;
+    border-radius: 50%;
+}
+.star{
+    color: orangered;
+    font-size: 18px;
+}
+.chef-btn{
+    border-top:4px solid rgb(214, 214, 214);
+    height: 40px;
+}
+.chef-btn1{
+    height: 40px;
+}
+.chef-btn-borderLeft{
+    border-right:1px solid rgb(214, 214, 214);
+}
+.widthJustChef{
+    width: 50%;
+}
+
+.iconBodyChef{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+.iconChef{
+    font-size: 15px !important;
+    font-weight: bolder;
+    color: white;
+}
+.FoodTitle{
+    font-size: 16px;
+}
+/*Hover-Effect*/
+.chefcardHover:hover{
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+    transform: scale(1.01);
+    box-shadow: rgb(0 0 0 / 12%) 0px 10px 20px, rgb(0 0 0 / 6%) 0px 4px 8px;
+}
+.cardModal{
+ width: 280px;
+    min-height: 20px;
+}
+.modalClose{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: white;
+    z-index: 99;
+    cursor: pointer;
+}
+@media (min-width: 1000px) {
+    .CardBox {
+        width: 97%;
+    }
+    .cardModal{
+        width: 400px;
+        min-height: 20px;
+    }
+    .brightChef{
+        border-right:1px solid rgb(214, 214, 214);
+    }
+    .topChef{
+        border-top:1px solid rgb(214, 214, 214);
+
+    }
+}
